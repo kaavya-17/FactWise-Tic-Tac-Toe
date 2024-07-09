@@ -1,0 +1,64 @@
+body {
+  background-color: black;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: white;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.board-row {
+  display: flex;
+}
+
+.square {
+  width: 60px;
+  height: 60px;
+  background: white;
+  border: 2px solid white;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 60px;
+  cursor: pointer;
+  color: black;
+  border-radius: 50%; /* Makes the button round */
+}
+
+.square.winning-square {
+  background: white;
+  color: green;
+}
+
+.status {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.restart-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width:150px
+}
