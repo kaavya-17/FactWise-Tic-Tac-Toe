@@ -37,7 +37,7 @@ const TicTacToe = () => {
 
   return (
     <div className="game">
-      <div className="title">Tic Tac Toe</div>
+      <div className="title">Tic-Tac-Toe</div>
       <div className="board">
         {[...Array(boardSize)].map((_, row) => (
           <div key={row} className="board-row">
